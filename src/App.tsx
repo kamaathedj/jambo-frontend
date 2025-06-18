@@ -1,21 +1,47 @@
-import Products from './components/products';
+import Services from './components/Services';
+import Header from './components/header';
+import HowTo from './components/HowTo';
+import Agency from './components/Agency';
+import Footer from './components/Footer';
 
 function App() {
 
 
   return (
-    <>
+  <>
+
+    <Header></Header>
+
+        
+  <div className="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+
+
+<div>
+  <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+    Seamless <span className="text-orange-600">solutions</span><br />
+    ,unmatched <span className="text-gray-900">experiences</span>
+  </h1>
+  <p className="text-grali><a href="#">Careers</a></li>
+              <li><a href="#">Team</a></li>y-600 mt-2 text-lg">
+connecting moments, powering digital eperiences.
+  </p>
+</div>
+
+<div className="flex justify-center md:justify-end">
+  <img
+    src="/discuss.png"
+    alt="Two people on bean bags"
+    className="w-full max-w-md"
+  />
+</div>
+
+</div>
+    <Services/>
+    <HowTo/>
+    <Agency />
+    <Footer/>
+
     
-      <div className="h-20 w-full bg-amber-600 my-10 mt-0 items-center">
-        <h1 className="pt-4 ml-7"> Jambo games</h1>
-
-        <div className='flex justify-end space-x-2 mr-50 '>
-          <p className=''>home</p>
-          <p>services</p>
-        </div>
-      </div>
-
-    <Products></Products>
      
     </>
   )

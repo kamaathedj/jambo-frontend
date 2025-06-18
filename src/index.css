@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+@theme {
+      --color-primary-500: oklch(0.72 0.11 178);
+      /* oklch(64.6% 0.222 41.116); */
+    }
+
+@layer base{
+    p{
+        font-size:var(--text-1xl);
+    }
+}
+@layer components{
+    .card {
+        @apply bg-white p-6 rounded-lg shadow hover:shadow-xl transition dark:bg-amber-200
+    }
+}

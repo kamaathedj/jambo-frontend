@@ -18,11 +18,11 @@ function App() {
 
 <div>
   <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-    Seamless <span className="text-orange-600">solutions</span><br />
-    ,unmatched <span className="text-gray-900">experiences</span>
+    Seamless <span className="text-primary-500">solutions</span><br />
+    unmatched <span className="text-primary-500">experiences</span>
   </h1>
   <p className="text-gray-600 mt-2 text-lg">
-connecting moments, powering digital eperiences.
+Connecting moments, powering digital eperiences.
   </p>
 </div>
 

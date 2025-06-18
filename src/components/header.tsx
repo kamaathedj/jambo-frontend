@@ -13,7 +13,7 @@ export default function Header() {
 
       {/* navigation */}
       <nav className="space-x-6 text-sm font-medium text-gray-700">
-        <a href="#" className="text-orange-500">Home</a>
+        <a href="#" className="text-primary-500">Home</a>
         <a href="#">Services</a>
         <a href="#">Contact us</a>
       </nav>

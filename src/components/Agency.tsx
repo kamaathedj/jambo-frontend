@@ -6,7 +6,7 @@ export default function Agency() {
 
     <div>
       <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-        Our <span className="text-orange-600">Agency</span><br />
+        Our <span className="text-primary-500">Agency</span><br />
       </h1>
       <p className="text-gray-600 mt-2 text-lg">
       Jambo games limited is commited to delivering high quality content

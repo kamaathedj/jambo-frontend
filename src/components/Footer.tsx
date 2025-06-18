@@ -2,7 +2,7 @@ export default function Footer() {
     return (
       <footer className="bg-[#ffece6] text-gray-800">
         {/* CTA Section */}
-        <div className="bg-orange-500 text-white text-center py-6">
+        <div className="bg-primary-500 text-white text-center py-6">
           <div className="max-w-6xl mx-auto flex justify-between items-center px-6">
             <h2 className="text-xl font-semibold">Ready to get started?</h2>
             <button className="border border-white text-white px-6 py-2 rounded hover:bg-white hover:text-orange-500 transition">
@@ -16,13 +16,13 @@ export default function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <span className="text-3xl text-orange-500">❤️</span>
-              <span className="font-bold text-lg">BrandBuzz</span>
+              <span className="text-3xl text-primary-500">❤️</span>
+              <span className="font-bold text-lg">Jambo</span>
             </div>
             <div className="flex space-x-3 text-2xl">
               <a href="#"><i className="fab fa-facebook text-blue-600">facebook</i></a>
-              <a href="#"><i className="fab fa-instagram text-pink-500">nstagram</i></a>
-              <a href="#"><i className="fab fa-twitter text-sky-500"></i>x</a>
+              <a href="#"><i className="fab fa-instagram text-pink-500">Instagram</i></a>
+              <a href="#"><i className="fab fa-twitter text-sky-500"></i>X</a>
             </div>
           </div>
   

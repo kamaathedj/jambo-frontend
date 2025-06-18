@@ -21,8 +21,7 @@ function App() {
     Seamless <span className="text-orange-600">solutions</span><br />
     ,unmatched <span className="text-gray-900">experiences</span>
   </h1>
-  <p className="text-grali><a href="#">Careers</a></li>
-              <li><a href="#">Team</a></li>y-600 mt-2 text-lg">
+  <p className="text-gray-600 mt-2 text-lg">
 connecting moments, powering digital eperiences.
   </p>
 </div>

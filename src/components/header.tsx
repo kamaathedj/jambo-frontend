@@ -19,7 +19,9 @@ export default function Header() {
         <NavLink to="/service" className={({isActive})=>{
           return isActive? 'text-primary-500':'';
         }}>services</NavLink>
-        <a href="#">Contact us</a>
+        <NavLink to="/contact" className={({isActive})=>{
+          return isActive? 'text-primary-500':'';
+        }}>Contact us</NavLink>
       </nav>
 
     </div>

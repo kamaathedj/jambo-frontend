@@ -3,6 +3,7 @@ import{createHashRouter} from 'react-router-dom'
 import App from '../App.tsx';
 import ServicesPage from '../pages/ServicesPage.tsx';
 import NotFound from '../pages/NotFound.tsx';
+import Contacts from '../pages/Contacts.tsx';
 
 const router = createHashRouter([{
   path:'/',
@@ -11,6 +12,9 @@ const router = createHashRouter([{
 },{
   path:'/service',
   element:<ServicesPage/>
+},{
+  path:'/contact',
+  element:<Contacts/>
 }
 ]);
 

@@ -22,7 +22,7 @@ function App() {
     unmatched <span className="text-primary-500">experiences</span>
   </h1>
   <p className="text-gray-600 mt-2 text-lg">
-Connecting moments, powering digital eperiences.
+Connecting moments, powering digital experiences.
   </p>
 </div>
 

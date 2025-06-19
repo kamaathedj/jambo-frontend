@@ -9,6 +9,9 @@
     p{
         font-size:var(--text-1xl);
     }
+    a{
+        color:blue;
+    }
 }
 @layer components{
     .card {

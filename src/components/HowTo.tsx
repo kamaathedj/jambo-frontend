@@ -26,15 +26,15 @@ export default function HowTo() {
           <ol className="space-y-4 mb-8">
             <li className="flex items-start">
               <span className="bg-primary-500 text-white font-bold w-6 h-6 flex items-center justify-center rounded-full mr-3">1</span>
-              <span><strong>Contact us:</strong> Contact us to boost your brand visibility.</span>
+              <span><strong>Login or sign up:</strong> if you have an account login</span>
             </li>
             <li className="flex items-start">
               <span className="bg-primary-500 text-white font-bold w-6 h-6 flex items-center justify-center rounded-full mr-3">2</span>
-              <span><strong>Consult:</strong> Receive advice to answer your questions.</span>
+              <span><strong>Services:</strong> browse our products and games</span>
             </li>
             <li className="flex items-start">
               <span className="bg-primary-500 text-white font-bold w-6 h-6 flex items-center justify-center rounded-full mr-3">3</span>
-              <span><strong>Place order:</strong> Buy our package tailored to your needs.</span>
+              <span><strong>choose:</strong> Choose any product </span>
             </li>
             <li className="flex items-start">
               <span className="bg-primary-500 text-white font-bold w-6 h-6 flex items-center justify-center rounded-full mr-3">4</span>
@@ -48,7 +48,7 @@ export default function HowTo() {
               Get Started
             </button>
             <button className="border border-primary-500 text-primary-500 hover:bg-orange-100 px-5 py-2 rounded-lg">
-              Read more
+              Contact us
             </button>
           </div>
         </div>

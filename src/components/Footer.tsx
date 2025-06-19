@@ -12,7 +12,7 @@ export default function Footer() {
         </div>
   
         {/* Footer Content */}
-        <div className="max-w-6xl mx-auto py-10 px-6 grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
+        <div className="max-w-6xl mx-auto py-10 px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
@@ -39,27 +39,16 @@ export default function Footer() {
   
           {/* Designs */}
           <div>
-            <h4 className="font-bold mb-2">Designs</h4>
+            <h4 className="font-bold mb-2">Services</h4>
             <ul className="space-y-1">
-              <li><a href="#">Design contests</a></li>
-              <li><a href="#">1-to-1 Projects</a></li>
-              <li><a href="#">Find a designer</a></li>
-              <li><a href="#">Discover inspiration</a></li>
-              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Jambo games</a></li>
+              <li><a href="#">Events and ticketing</a></li>
+              <li><a href="#">Jambo bulksms</a></li>
+              <li><a href="#">Jambo skiza tones</a></li>
+              <li><a href="#">Jambo shortcodes</a></li>
             </ul>
           </div>
   
-          {/* Resources */}
-          <div>
-            <h4 className="font-bold mb-2">Resources</h4>
-            <ul className="space-y-1">
-              <li><a href="#">Become a designer</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Design without borders</a></li>
-              <li><a href="#">99awards</a></li>
-              <li><a href="#">Affiliates</a></li>
-            </ul>
-          </div>
         </div>
       </footer>
     );

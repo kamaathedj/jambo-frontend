@@ -1,4 +1,4 @@
-
+import {NavLink} from 'react-router-dom'
 
 export default function Header() {
   return (
@@ -13,8 +13,12 @@ export default function Header() {
 
       {/* navigation */}
       <nav className="space-x-6 text-sm font-medium text-gray-700">
-        <a href="#" className="text-primary-500">Home</a>
-        <a href="#">Services</a>
+        <NavLink to="/" className={({isActive})=>{
+          return isActive? 'text-primary-500':'';
+        }}>Home</NavLink>
+        <NavLink to="/service" className={({isActive})=>{
+          return isActive? 'text-primary-500':'';
+        }}>services</NavLink>
         <a href="#">Contact us</a>
       </nav>
 

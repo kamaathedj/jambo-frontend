@@ -12,6 +12,6 @@
 }
 @layer components{
     .card {
-        @apply bg-white p-6 rounded-lg shadow hover:shadow-xl transition dark:bg-amber-200
+        @apply bg-amber-200 p-6 rounded-lg shadow hover:shadow-xl transition ;
     }
 }

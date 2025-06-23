@@ -1,4 +1,4 @@
-
+import {Link} from 'react-router-dom'
 export default function HowTo() {
   return (
     <div className="bg-orange-50 py-16 px-6">
@@ -44,12 +44,16 @@ export default function HowTo() {
 
           {/* Buttons */}
           <div className="flex gap-4">
+            <Link to='/service'>
             <button className="bg-primary-500 hover:bg-primary-600 text-white px-5 py-2 rounded-lg shadow">
               Get Started
             </button>
+            </Link>
+            <Link to = '/contact'>
             <button className="border border-primary-500 text-primary-500 hover:bg-orange-100 px-5 py-2 rounded-lg">
               Contact us
             </button>
+            </Link>
           </div>
         </div>
 

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
     return (
       <footer className="bg-[#ffece6] text-gray-800">
@@ -5,9 +7,11 @@ export default function Footer() {
         <div className="bg-primary-500 text-white text-center py-6">
           <div className="max-w-6xl mx-auto flex justify-between items-center px-6">
             <h2 className="text-xl font-semibold">Ready to get started?</h2>
+            <Link to="/contact">
             <button className="border border-white text-white px-6 py-2 rounded hover:bg-white hover:text-orange-500 transition">
               Contact Us
             </button>
+            </Link>
           </div>
         </div>
   

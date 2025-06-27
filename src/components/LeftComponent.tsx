@@ -6,7 +6,7 @@ export default function LeftComponent() {
     
     <div className="flex justify-center md:justify-start max-w-5xl">
   <img
-    src="/example_game.png"
+    src="/skiza.png"
     alt="jambo tones"
     className="w-full max-w-md"
   />

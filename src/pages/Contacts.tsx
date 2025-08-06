@@ -16,8 +16,8 @@ const Contact = () => {
         
         <div>
           <h2 className="text-lg font-bold mb-2">EMAIL</h2>
-          <p>GENERAL INQUIRIES<br /><a href="mailto:BWANDETO@JAMBOGAMESLTD.COM" className="underline">BWANDETO@JAMBOGAMESLTD.COM</a></p>
-          {/* <p className="mt-2">CATERING INQUIRIES<br /><a href="mailto:CATERING@CAFEEVOKE.COM" className="underline">CATERING@CAFEEVOKE.COM</a></p> */}
+          <p>GENERAL INQUIRIES<br /><a href="mailto:INFO@JAMBOGAMESLTD.CO.KE" className="underline">INFO@JAMBOGAMESLTD.CO.KE</a></p>
+
         </div>
       </div>
 

@@ -4,6 +4,7 @@ import App from '../App.tsx';
 import ServicesPage from '../pages/ServicesPage.tsx';
 import NotFound from '../pages/NotFound.tsx';
 import Contacts from '../pages/Contacts.tsx';
+import { JamboTunesForm } from '../pages/JamboTunesForm.tsx';
 
 const router = createHashRouter([{
   path:'/',
@@ -15,6 +16,9 @@ const router = createHashRouter([{
 },{
   path:'/contact',
   element:<Contacts/>
+},{
+  path:'/tunes',
+  element:<JamboTunesForm/>
 }
 ]);
 

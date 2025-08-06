@@ -1,4 +1,5 @@
-import ButtonComponent from "./ButtonComponent"
+
+import JamboTunesButtton from "./jamboTunesButton"
 
 export default function LeftComponent() {
   return (
@@ -19,7 +20,7 @@ export default function LeftComponent() {
   <p className="text-gray-600 mt-2 text-lg">
     Enjoy best curated  skiza tone for your callers.
   </p>
-  <ButtonComponent title="Purchase here"/>
+  <JamboTunesButtton   title="Purchase here"/>
 </div>
 
 

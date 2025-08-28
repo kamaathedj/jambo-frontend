@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import 'font-awesome/css/font-awesome.min.css';
 
 export default function Footer() {
     return (
@@ -24,12 +25,12 @@ export default function Footer() {
               <span className="font-bold text-lg">Jambo</span>
             </div>
             <div className="flex space-x-3 text-2xl">
-              <a href="#"><i className="fab fa-facebook text-blue-600">facebook</i></a>
-              <a href="#"><i className="fab fa-instagram text-pink-500">Instagram</i></a>
-              <a href="#"><i className="fab fa-twitter text-sky-500"></i>X</a>
+              <a href="https://web.facebook.com/" target="_blank"><i className="fab fa-facebook text-blue-600"></i>Facebook</a>
+              <a href="https://www.instagram.com/" target="_blank"><i className="fab fa-instagram text-pink-500">Instagram</i></a>
+              <a href="https://x.com/" target="_blank"><i className="fab fa-twitter text-sky-500"></i>X</a>
+              <a href="https://www.tiktok.com/explore" target="_blank"><i className="fab fa-tiktok text-sky-500"></i>Tiktok</a>
             </div>
-          </div>
-  
+            </div>
           {/* Company */}
           <div>
             <h4 className="font-bold mb-2">Company</h4>
